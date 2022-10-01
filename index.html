@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Zológico de Guarulhos</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Quicksand:wght@600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                    <small>Dona Gloria Pagnoncelli 334, Guarulhos-São Paulo</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <small class="far fa-clock text-primary me-2"></small>
+                    <small>Ter - Dom : 09:00 AM - 16:30 PM</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-phone-alt text-primary me-2"></small>
+                    <small>(11)2455-6497</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://www.facebook.com/zoologico.guarulhos"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-0" href="https://instagram.com/zooguarulhos?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand p-0">
+            <img class="img-fluid me-3" src="img/icon/icon-10.png" alt="Icon">
+            <h1 class="m-0 text-primary">Zoológico</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse py-4 py-lg-0" id="navbarCollapse">
+            <div class="navbar-nav ms-auto">
+                <a href="index.html" class="nav-item nav-link active">Início</a>
+                <a href="about.html" class="nav-item nav-link">Sobre nós</a>
+                <a href="service.html" class="nav-item nav-link">Serviços</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Páginas</a>
+                    <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+                        <a href="animal.html" class="dropdown-item">Nossos animais</a>
+                        <a href="visiting.html" class="dropdown-item">Horários de Visita</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contato</a>
+            </div>
+            <a href="https://zoologico.guarulhos.sp.gov.br/index.html" class="btn btn-primary">Site Original<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-dark p-0 mb-5">
+        <div class="row g-0 flex-column-reverse flex-lg-row">
+            <div class="col-lg-6 p-0 wow fadeIn" data-wow-delay="0.1s">
+                <div class="header-bg h-100 d-flex flex-column justify-content-center p-5">
+                    <h1 class="display-4 text-light mb-5">Momentos incriveis em família!</h1>
+                    <div class="d-flex align-items-center pt-4 animated slideInDown">
+                        <button type="button" class="btn-play" data-bs-toggle="modal"
+                            data-src="https://www.youtube.com/embed/sRELP9IiKYM" data-bs-target="#videoModal">
+                            <span></span>
+                        </button>
+                        <h6 class="text-white m-0 ms-4 d-none d-sm-block">Veja como é andar no nosso lar!</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                <div class="owl-carousel header-carousel">
+                    <div class="owl-carousel-item">
+                        <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                    </div>
+                    <div class="owl-carousel-item">
+                        <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                    </div>
+                    <div class="owl-carousel-item">
+                        <img class="img-fluid" src="img/carousel-3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">Experiência do Zoológico</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- 16:9 aspect ratio -->
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                            allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p><span class="text-primary me-2">#</span>Bem vindo ao Zoológico</p>
+                    <h1 class="display-5 mb-4">Porque visitar <span class="text-primary">nosso</span> Zoológico!</h1>
+                    <p class="mb-4">O Zoológico Municipal de Guarulhos é um lugar aberto e com ampla circulação de ar, é ideal para um passeio em família e para aprender mais, e o melhor, <b>não cobramos o ingresso!</b></p>
+                    <p class="mb-4">O espaço é público e livre para circulação das nove da manhã até as quatro e meia da tarde. O que me diz, vamos passar uma tarde juntos?</p>
+                    <h5 class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Entrada gratuita</h5>
+                    <h5 class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Estacionamento gratuito</h5>
+                    <h5 class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Segurança e limpeza de primeira linha</h5>
+                    <h5 class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Animais bem cuidados e carinhosamente tratados</h5>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="img-border">
+                        <img class="img-fluid" src="img/about.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Facts Start -->
+    <div class="container-xxl bg-primary facts my-5 py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
+                    <i class="fa fa-paw fa-3x text-primary mb-3"></i>
+                    <h1 class="text-white mb-2" data-toggle="counter-up">+400</h1>
+                    <p class="text-white mb-0">Animais Abrigados</p>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
+                    <i class="fa fa-tree fa-3x text-primary mb-3"></i>
+                    <h1 class="text-white mb-2" data-toggle="counter-up">70.000</h1>
+                    <p class="text-white mb-0">m² de Preserva Ambiental</p>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
+                    <i class="fa fa-university fa-3x text-primary mb-3"></i>
+                    <h1 class="text-white mb-2" data-toggle="counter-up">450</h1>
+                    <p class="text-white mb-0">Itens no Museu</p>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
+                    <i class="fa fa-certificate fa-3x text-primary mb-3"></i>
+                    <h1 class="text-white mb-2" data-toggle="counter-up">1982</h1>
+                    <p class="text-white mb-0">Ano de Fundação</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Facts End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <p><span class="text-primary me-2">#</span>Serviços</p>
+                    <h1 class="display-5 mb-0">O que você pode fazer <span class="text-primary">de bom?</span></h1>
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-primary h-100 d-flex align-items-center py-4 px-4 px-sm-5">
+                        <i class="fa fa-3x fa-mobile-alt text-white"></i>
+                        <div class="ms-4">
+                            <p class="text-white mb-0">Ligue para mais informações</p>
+                            <h2 class="text-white mb-0">(11)2455-6497</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row gy-5 gx-4">
+                <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <img class="img-fluid mb-3" src="img/icon/icon-2.png" alt="Icon">
+                    <h5 class="mb-3">Estacionamento</h5>
+                    <span>Boa localização e acesso a estacionamento gratuito.</span>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <img class="img-fluid mb-3" src="img/icon/icon-3.png" alt="Icon">
+                    <h5 class="mb-3">Momentos Incríveis</h5>
+                    <span>Tire fotos e grave os animais a vontade (cuidado com o flash ⚡, alguns não gostam!)</span>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <img class="img-fluid mb-3" src="img/icon/icon-4.png" alt="Icon">
+                    <h5 class="mb-3">Turismo Icentivado</h5>
+                    <span>Traga um amigo, visite nossa cidade e aproveite o melhor que podemos oferecer.</span>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <img class="img-fluid mb-3" src="img/icon/icon-7.png" alt="Icon">
+                    <h5 class="mb-3">Wi-Fi Aberto</h5>
+                    <span>Boa conexão de sinal e internet para compartilhar nas suas redes sociais favoritas!</span>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <img class="img-fluid mb-3" src="img/icon/icon-8.png" alt="Icon">
+                    <h5 class="mb-3">Play Ground</h5>
+                    <span>O nosso parquinho ao ar livre é ideal para brincar com os pequenos!</span>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <img class="img-fluid mb-3" src="img/icon/icon-9.png" alt="Icon">
+                    <h5 class="mb-3">Museu Cultural</h5>
+                    <span>Temos nosso próprio Museu de Ciências Naturais que conta com mais de 450 itens.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Animal Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 mb-5 align-items-end wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <p><span class="text-primary me-2">#</span>Nossos Animais</p>
+                    <h1 class="display-5 mb-0">Conheça nossos <span class="text-primary">animais</span> tão amados e cuidados!</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="https://zoologico.guarulhos.sp.gov.br/animais.html">Lista Completa</a>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="row g-4">
+                        <div class="col-12">
+                            <a class="animal-item" href="img/animal-md-1.jpg" data-lightbox="animal">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="img/animal-md-1.jpg" alt="">
+                                    <div class="animal-text p-4">
+                                        <p class="text-white small text-uppercase mb-0">Pantanal</p>
+                                        <h5 class="text-white mb-0">Onça Pintada</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12">
+                            <a class="animal-item" href="img/animal-lg-1.jpg" data-lightbox="animal">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="img/animal-lg-1.jpg" alt="">
+                                    <div class="animal-text p-4">
+                                        <p class="text-white small text-uppercase mb-0">Floresta Tropical</p>
+                                        <h5 class="text-white mb-0">Tucano</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="row g-4">
+                        <div class="col-12">
+                            <a class="animal-item" href="img/animal-lg-2.jpg" data-lightbox="animal">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="img/animal-lg-2.jpg" alt="">
+                                    <div class="animal-text p-4">
+                                        <p class="text-white small text-uppercase mb-0">Florestas Úmidas</p>
+                                        <h5 class="text-white mb-0">Capivara</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12">
+                            <a class="animal-item" href="img/animal-md-2.jpg" data-lightbox="animal">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="img/animal-md-2.jpg" alt="">
+                                    <div class="animal-text p-4">
+                                        <p class="text-white small text-uppercase mb-0">Florestas de Galeria</p>
+                                        <h5 class="text-white mb-0">Papagaio</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row g-4">
+                        <div class="col-12">
+                            <a class="animal-item" href="img/animal-md-3.jpg" data-lightbox="animal">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="img/animal-md-3.jpg" alt="">
+                                    <div class="animal-text p-4">
+                                        <p class="text-white small text-uppercase mb-0">Mata Atlântica</p>
+                                        <h5 class="text-white mb-0">Mico Leão</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12">
+                            <a class="animal-item" href="img/animal-lg-3.jpg" data-lightbox="animal">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="img/animal-lg-3.jpg" alt="">
+                                    <div class="animal-text p-4">
+                                        <p class="text-white small text-uppercase mb-0">Savana</p>
+                                        <h5 class="text-white mb-0">Leão</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Animal End -->
+
+
+    <!-- Visiting Hours Start -->
+    <div class="container-xxl bg-primary visiting-hours my-5 py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 wow fadeIn" data-wow-delay="0.3s">
+                    <h1 class="display-6 text-white mb-5">Horários de Visita</h1>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <span>Segunda</span>
+                            <span>Fechado :(</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span>Terça</span>
+                            <span>9:00AM - 4:30PM</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span>Quarta</span>
+                            <span>9:00AM - 4:30PM</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span>Quinta</span>
+                            <span>9:00AM - 4:30PM</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span>Sexta</span>
+                            <span>9:00AM - 4:30PM</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span>Sábado</span>
+                            <span>9:00AM - 4:30PM</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span>Domingo</span>
+                            <span>9:00AM - 4:30PM</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 text-light wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="display-6 text-white mb-5">Contato</h1>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td>Endereço</td>
+                                <td>Dona Gloria Pagnoncelli 334, Guarulhos-São Paulo</td>
+                            </tr>
+                            <tr>
+                                <td>Telefone</td>
+                                <td>
+                                    <p class="mb-2">(11) 2455-6497</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Visiting Hours End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Endereço</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Rua Dona Gloria Pagnoncelli, 344 - Jardim Rosa de França, Guarulhos-SP</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(11) 2455-6497</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>manejo.zooguarulhos@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="https://zoologico.guarulhos.sp.gov.br/contato.html">Zoológico de Guarulhos</a>, Todos os Direitos Reservados.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        Feito por <a class="border-bottom" href="https://github.com/Mourishitz">Gabriel Morishita</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
