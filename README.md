@@ -7,9 +7,9 @@ Um website feito do zero para um trabalho da faculdade
 Você pode acessar o site através do link '[zoologico-guarulhos.web.app](https://zoologico-guarulhos.web.app)'
 
 
-## Bootstrapp Stack
+## Bootstrap Stack
 
-**Front-end:** Bootstrapp, Sass
+**Front-end:** Bootstrap, Sass
 
 **Back-end:** null
 
